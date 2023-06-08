@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="hotchocolate.aspnetcore" Version="13.2.1" />
+    <PackageReference Include="hotchocolate.data" Version="13.2.1" />
     <PackageReference Include="microsoft.entityframeworkcore" Version="7.0.5" />
     <PackageReference Include="microsoft.entityframeworkcore.design" Version="7.0.5">
       <PrivateAssets>all</PrivateAssets>
