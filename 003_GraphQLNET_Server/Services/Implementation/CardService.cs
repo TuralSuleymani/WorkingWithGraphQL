@@ -21,5 +21,12 @@ namespace _003_GraphQLNET_Server.Services.Implementation
         {
             return await _dbContext.Cards.ToListAsync();
         }
+
+        public async Task<IEnumerable<Card>> GetCardsByCustomerIdAsync(int customerId)
+        {
+            return await _dbContext.Cards
+                        .Where(x => x.CustomerId == customerId)
+                            .ToListAsync();
+        }
     }
 }

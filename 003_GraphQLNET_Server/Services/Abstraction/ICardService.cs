@@ -6,5 +6,6 @@ namespace _003_GraphQLNET_Server.Services.Abstraction
     {
         Task<Card?> GetCardByIdAsync(int id);
         Task<IEnumerable<Card>> GetCardsAsync();
+        Task<IEnumerable<Card>> GetCardsByCustomerIdAsync(int customerId);
     }
 }

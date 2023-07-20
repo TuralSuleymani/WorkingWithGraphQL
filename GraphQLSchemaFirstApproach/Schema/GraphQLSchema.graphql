@@ -1,0 +1,34 @@
+type Employee
+{
+    id : Int!
+    name : String!
+    fincode:String!
+    Address: Address!
+ }
+
+type Address
+ {
+    id : Int!
+    city: String!
+    Street: String!
+}
+
+type Card
+{
+    id : Int!
+    cardHolder:String!
+    cardNumber:String!
+    cardType:CardType!
+    employee:Employee!
+}
+
+enum CardType 
+{
+    Visa
+    Master
+}
+
+type Query
+{
+   employees:[Employee!]!
+}
