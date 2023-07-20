@@ -16,10 +16,10 @@ type Address
 type Card
 {
     id : Int!
-    cardHolder:String!
-    cardNumber:String!
-    cardType:CardType!
-    employee:Employee!
+    cardHolder: String!
+    cardNumber: String!
+    cardType: CardType!
+    employee: Employee!
 }
 
 enum CardType 
@@ -30,5 +30,6 @@ enum CardType
 
 type Query
 {
-   employees:[Employee!]!
+   employees: [Employee!]!
+   cards: [Card!]!
 }

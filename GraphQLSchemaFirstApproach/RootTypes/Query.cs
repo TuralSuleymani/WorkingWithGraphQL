@@ -13,5 +13,11 @@ namespace GraphQLSchemaFirstApproach.RootTypes
         {
             return await new InMemoryDb().GetEmployeesAsync();
         }
+
+        [GraphQLMetadata("cards")]
+        public async Task<IEnumerable<Card>> GetCards()
+        {
+            return await new InMemoryDb().GetCardsAsync();
+        }
     }
 }

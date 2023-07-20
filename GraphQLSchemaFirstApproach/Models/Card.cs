@@ -6,5 +6,5 @@
         Master
     }
 
-    public record Card(int Id, string CardHolder, string cardNumber,CardType CardType, Employee Employee);
+    public record Card(int Id, string CardHolder, string CardNumber, CardType CardType, Employee Employee);
 }
