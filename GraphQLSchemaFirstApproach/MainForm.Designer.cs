@@ -79,7 +79,7 @@
             btn_execute.TabIndex = 4;
             btn_execute.Text = "Execute ->";
             btn_execute.UseVisualStyleBackColor = true;
-            btn_execute.Click += btn_execute_Click;
+            btn_execute.Click += Btn_execute_Click;
             // 
             // MainForm
             // 
