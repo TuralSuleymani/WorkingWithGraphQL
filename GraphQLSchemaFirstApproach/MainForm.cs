@@ -1,6 +1,7 @@
 using GraphQL.SystemTextJson;
 using GraphQL.Types;
-using GraphQLSchemaFirstApproach.Helpers;
+using GraphQLSchemaFirstApproach.RootTypes;
+using GraphQLSchemaFirstLib.Helpers;
 
 namespace GraphQLSchemaFirstApproach
 {
@@ -10,7 +11,7 @@ namespace GraphQLSchemaFirstApproach
         public MainForm()
         {
             InitializeComponent();
-            _schema = SchemaLoader.LoadSchema("GraphQLSchema");
+            _schema = SchemaLoader.LoadSchema<Query>("GraphQLSchema");
         }
 
         private async void Btn_execute_Click(object sender, EventArgs e)

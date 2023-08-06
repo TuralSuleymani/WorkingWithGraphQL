@@ -1,7 +1,6 @@
 ﻿using GraphQL;
-using GraphQLSchemaFirstApproach.Database;
-using GraphQLSchemaFirstApproach.Models;
-
+using GraphQLSchemaFirstLib.Database;
+using GraphQLSchemaFirstLib.Models;
 
 namespace GraphQLSchemaFirstApproach.RootTypes
 {

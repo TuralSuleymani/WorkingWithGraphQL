@@ -9,12 +9,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="graphQL" Version="7.5.0" />
-    <PackageReference Include="graphQL.systemtextjson" Version="7.5.0" />
+    <PackageReference Include="graphQL" Version="7.6.0" />
+    <PackageReference Include="graphQL.systemtextjson" Version="7.6.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Schema\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GraphQLSchemaFirstLib\GraphQLSchemaFirstLib.csproj" />
   </ItemGroup>
 
 </Project>

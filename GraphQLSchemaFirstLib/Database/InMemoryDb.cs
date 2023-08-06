@@ -1,6 +1,6 @@
-﻿using GraphQLSchemaFirstApproach.Models;
+﻿using GraphQLSchemaFirstLib.Models;
 
-namespace GraphQLSchemaFirstApproach.Database
+namespace GraphQLSchemaFirstLib.Database
 {
     public class InMemoryDb
     {

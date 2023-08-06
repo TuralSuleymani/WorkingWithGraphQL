@@ -1,4 +1,4 @@
-﻿namespace GraphQLSchemaFirstApproach.Extensions
+﻿namespace GraphQLSchemaFirstLib.Extensions
 {
     public static class ApplicationPath
     {

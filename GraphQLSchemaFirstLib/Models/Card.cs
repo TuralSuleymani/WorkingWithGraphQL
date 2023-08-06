@@ -1,4 +1,4 @@
-﻿namespace GraphQLSchemaFirstApproach.Models
+﻿namespace GraphQLSchemaFirstLib.Models
 {
     public enum CardType
     {
